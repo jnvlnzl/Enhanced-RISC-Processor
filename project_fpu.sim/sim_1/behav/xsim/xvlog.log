@@ -1,0 +1,102 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/alu.v" into library xil_defaultlib
+WARNING: [VRFC 10-9157] macro 'NAND' is redefined [../../../../project_fpu.srcs/sources_1/imports/verilog/adder_1bit.v:2]
+WARNING: [VRFC 10-9157] macro 'AND' is redefined [../../../../project_fpu.srcs/sources_1/imports/verilog/adder_1bit.v:3]
+WARNING: [VRFC 10-9157] macro 'NOR' is redefined [../../../../project_fpu.srcs/sources_1/imports/verilog/adder_1bit.v:4]
+INFO: [VRFC 10-311] analyzing module structuralFullAdder
+INFO: [VRFC 10-311] analyzing module ALU_slice
+INFO: [VRFC 10-311] analyzing module ALU_slice_MSB
+INFO: [VRFC 10-311] analyzing module ALUcontrolLUT
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-311] analyzing module multiplexer
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/cpu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+INFO: [VRFC 10-311] analyzing module lshift28
+INFO: [VRFC 10-311] analyzing module lshift32
+WARNING: [VRFC 10-9157] macro 'SUB' is redefined [../../../../project_fpu.srcs/sources_1/imports/verilog/instructionDecoder.v:19]
+WARNING: [VRFC 10-9157] macro 'SLT' is redefined [../../../../project_fpu.srcs/sources_1/imports/verilog/instructionDecoder.v:20]
+WARNING: [VRFC 10-9157] macro 'ADD' is redefined [../../../../project_fpu.srcs/sources_1/imports/verilog/instructionDecoder.v:21]
+INFO: [VRFC 10-311] analyzing module instructionDecoder
+INFO: [VRFC 10-311] analyzing module mux8to1by32
+INFO: [VRFC 10-311] analyzing module mux4to1by32
+INFO: [VRFC 10-311] analyzing module mux4to1by5
+INFO: [VRFC 10-311] analyzing module mux2to1by1
+INFO: [VRFC 10-311] analyzing module mux2to1by8
+INFO: [VRFC 10-311] analyzing module mux2to1by5
+INFO: [VRFC 10-311] analyzing module mux2to1by32
+INFO: [VRFC 10-311] analyzing module signExtend
+INFO: [VRFC 10-311] analyzing module signExtendFloat
+INFO: [VRFC 10-311] analyzing module register32
+INFO: [VRFC 10-311] analyzing module register32zero
+INFO: [VRFC 10-311] analyzing module decoder1to32
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-311] analyzing module fpuregfile
+INFO: [VRFC 10-311] analyzing module programCounter
+INFO: [VRFC 10-311] analyzing module multiply
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-311] analyzing module variableShifter
+INFO: [VRFC 10-311] analyzing module normalizer
+INFO: [VRFC 10-311] analyzing module lShiftOne
+INFO: [VRFC 10-311] analyzing module coprocessor1
+INFO: [VRFC 10-311] analyzing module cpu
+WARNING: [VRFC 10-2938] 'memory_PORTA' is already implicitly declared on line 90 [C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/cpu.v:234]
+WARNING: [VRFC 10-2938] 'memory_PORTB' is already implicitly declared on line 91 [C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/cpu.v:235]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/floatingPointCoprocessor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'Subtractor' [../../../../project_fpu.srcs/sources_1/imports/verilog/subtractor.v:1]
+INFO: [VRFC 10-311] analyzing module variableShifter
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'variableShifter' [../../../../project_fpu.srcs/sources_1/imports/verilog/variableShifter.v:1]
+INFO: [VRFC 10-311] analyzing module normalizer
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'normalizer' [../../../../project_fpu.srcs/sources_1/imports/verilog/variableShifter.v:27]
+INFO: [VRFC 10-311] analyzing module lShiftOne
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'lShiftOne' [../../../../project_fpu.srcs/sources_1/imports/verilog/variableShifter.v:159]
+INFO: [VRFC 10-311] analyzing module coprocessor1
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'coprocessor1' [C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/floatingPointCoprocessor.v:8]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/instructionDecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module instructionDecoder
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'instructionDecoder' [C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/instructionDecoder.v:44]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/multiplier.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module multiply
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'multiply' [C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/multiplier.v:1]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/mux.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module register32
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'register32' [../../../../project_fpu.srcs/sources_1/imports/verilog/register.v:1]
+INFO: [VRFC 10-311] analyzing module register32zero
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'register32zero' [../../../../project_fpu.srcs/sources_1/imports/verilog/register.v:18]
+INFO: [VRFC 10-311] analyzing module decoder1to32
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'decoder1to32' [../../../../project_fpu.srcs/sources_1/imports/verilog/decoders.v:4]
+INFO: [VRFC 10-311] analyzing module regfile
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'regfile' [C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/regfile.v:12]
+INFO: [VRFC 10-311] analyzing module fpuregfile
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'fpuregfile' [C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/regfile.v:49]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/signextend.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/subtractor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sources_1/imports/verilog/variableShifter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module variableShifter
+INFO: [VRFC 10-311] analyzing module normalizer
+INFO: [VRFC 10-311] analyzing module lShiftOne
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.srcs/sim_1/imports/verilog/float_cpu00.t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module memory
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'memory' [../../../../project_fpu.srcs/sources_1/imports/verilog/memory.v:1]
+INFO: [VRFC 10-311] analyzing module lshift28
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'lshift28' [../../../../project_fpu.srcs/sources_1/imports/verilog/lshift2.v:1]
+INFO: [VRFC 10-311] analyzing module lshift32
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'lshift32' [../../../../project_fpu.srcs/sources_1/imports/verilog/lshift2.v:10]
+INFO: [VRFC 10-311] analyzing module instructionDecoder
+INFO: [VRFC 10-311] analyzing module register32
+INFO: [VRFC 10-311] analyzing module register32zero
+INFO: [VRFC 10-311] analyzing module decoder1to32
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-311] analyzing module fpuregfile
+INFO: [VRFC 10-311] analyzing module programCounter
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'programCounter' [../../../../project_fpu.srcs/sources_1/imports/verilog/dff.v:5]
+INFO: [VRFC 10-311] analyzing module multiply
+INFO: [VRFC 10-311] analyzing module Subtractor
+INFO: [VRFC 10-311] analyzing module variableShifter
+INFO: [VRFC 10-311] analyzing module normalizer
+INFO: [VRFC 10-311] analyzing module lShiftOne
+INFO: [VRFC 10-311] analyzing module coprocessor1
+INFO: [VRFC 10-311] analyzing module cpu
+WARNING: [VRFC 10-3609] overwriting previous definition of module 'cpu' [../../../../project_fpu.srcs/sources_1/imports/verilog/cpu.v:12]
+INFO: [VRFC 10-311] analyzing module cpuTest
