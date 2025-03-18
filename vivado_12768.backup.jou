@@ -1,0 +1,147 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jul 28 10:52:02 2024
+# Process ID: 12768
+# Current directory: C:/Users/jana/Downloads/project_fpu/project_fpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2524 C:\Users\jana\Downloads\project_fpu\project_fpu\project_fpu.xpr
+# Log file: C:/Users/jana/Downloads/project_fpu/project_fpu/vivado.log
+# Journal file: C:/Users/jana/Downloads/project_fpu/project_fpu\vivado.jou
+# Running On: JANA, OS: Windows, CPU Frequency: 1690 MHz, CPU Physical cores: 4, Host memory: 8299 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/jana/Downloads/project_fpu/project_fpu/project_fpu.xpr
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {{C:/Users/jana/Desktop/soot/COLLEGE/3RD YEAR TERM 3/LBYCPD3/MIPS_FPU-master/MIPS_FPU-master/verilog/float_cpu00.t.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+source cpuTest.tcl
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_simulation
+source cpuTest.tcl
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/instruction}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/pcOut}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/cpuMemory/dataMemorydataIn}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/cpuMemory/instructionOut}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/registerFile/WriteRegister}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/cpuMemory/dataMemoryAddress}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/cpuMemory/dataMemorydataOut}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/fpu/data1}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/fpu/data2}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/fpu/floatRes}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/floatRegFile/WriteData}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/floatRegFile/WriteRegister}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/cpuMemory/dataMemorydataIn}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/registerFile/RegWrite}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/cpuMemory/dataMemorywriteEnable}} 
+current_wave_config {Untitled 2}
+add_wave {{/cpuTest/dut/cpuMemory/dataMemoryAddress}} 
+relaunch_sim
+run all
+save_wave_config {C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg}
+add_files -fileset sim_1 -norecurse C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg
+set_property xsim.view C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg [get_filesets sim_1]
+close_sim
+launch_simulation
+open_wave_config C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg
+source cpuTest.tcl
+run all
+close_sim
+open_project {C:/Users/jana/Desktop/soot/COLLEGE/3RD YEAR TERM 3/LBYCPD3/LAB7/lab7/mips_pipeline/mips_pipeline.xpr}
+update_compile_order -fileset sources_1
+close_project
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {C:/Users/jana/Downloads/project_fpu/project_fpu/project_fpu.srcs/sources_1/imports/verilog/test1data.mem C:/Users/jana/Downloads/project_fpu/project_fpu/project_fpu.srcs/sources_1/imports/verilog/test1text.mem}
+launch_simulation
+open_wave_config C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg
+source cpuTest.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg
+source cpuTest.tcl
+save_wave_config {C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg}
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_simulation
+open_wave_config C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg
+source cpuTest.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg
+source cpuTest.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg
+source cpuTest.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg
+source cpuTest.tcl
+close_sim
+set_property is_enabled false [get_files  {{C:/Users/jana/Desktop/soot/COLLEGE/3RD YEAR TERM 3/LBYCPD3/MIPS_FPU-master/MIPS_FPU-master/verilog/float_cpu00.t.v}}]
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/jana/Downloads/MIPS_FPU-master/MIPS_FPU-master/verilog/factorial_cpu00.t.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse C:/Users/jana/Downloads/MIPS_FPU-master/MIPS_FPU-master/asm_test/factorial_texthex.mem
+launch_simulation
+open_wave_config C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg
+source cpuTest.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg
+source cpuTest.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg
+source cpuTest.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg
+source cpuTest.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg
+source cpuTest.tcl
+close_sim
+set_property is_enabled false [get_files  C:/Users/jana/Downloads/MIPS_FPU-master/MIPS_FPU-master/verilog/factorial_cpu00.t.v]
+set_property is_enabled false [get_files  C:/Users/jana/Downloads/MIPS_FPU-master/MIPS_FPU-master/asm_test/factorial_texthex.mem]
+set_property is_enabled true [get_files  {{C:/Users/jana/Desktop/soot/COLLEGE/3RD YEAR TERM 3/LBYCPD3/MIPS_FPU-master/MIPS_FPU-master/verilog/float_cpu00.t.v}}]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_simulation
+open_wave_config C:/Users/jana/Downloads/project_fpu/project_fpu/cpuTest_behav.wcfg
+source cpuTest.tcl
+close_sim
+close_project

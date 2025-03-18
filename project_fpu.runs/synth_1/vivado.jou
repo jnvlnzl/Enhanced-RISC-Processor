@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2.2 (64-bit)
+# SW Build 4081461 on Thu Dec 14 12:24:51 MST 2023
+# IP Build 4126054 on Fri Feb  9 11:39:09 MST 2024
+# SharedData Build 4115275 on Tue Jan 30 00:40:57 MST 2024
+# Start of session at: Tue Aug  6 14:57:57 2024
+# Process ID: 2180
+# Current directory: C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.runs/synth_1
+# Command line: vivado.exe -log cpu.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source cpu.tcl
+# Log file: C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.runs/synth_1/cpu.vds
+# Journal file: C:/Users/Louie/Desktop/Files Y3 Term 3/LBYCPD3/project_fpu/project_fpu.runs/synth_1\vivado.jou
+# Running On: LOUIEQUE, OS: Windows, CPU Frequency: 2304 MHz, CPU Physical cores: 4, Host memory: 16968 MB
+#-----------------------------------------------------------
+source cpu.tcl -notrace

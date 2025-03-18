@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="cpuTest_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="cpuTest" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="98.799 ns"></ZoomEndTime>
+      <Cursor1Time time="125.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="248"></NameColumnWidth>
+      <ValueColumnWidth column_width="143"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/cpuTest/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/dut/instruction" type="array">
+      <obj_property name="ElementShortName">instruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/dut/pcOut" type="array">
+      <obj_property name="ElementShortName">pcOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pcOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/dut/cpuMemory/dataMemorydataIn" type="array">
+      <obj_property name="ElementShortName">dataMemorydataIn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataMemorydataIn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/dut/registerFile/WriteRegister" type="array">
+      <obj_property name="ElementShortName">WriteRegister[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteRegister[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/dut/cpuMemory/dataMemoryAddress" type="array">
+      <obj_property name="ElementShortName">dataMemoryAddress[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataMemoryAddress[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/dut/cpuMemory/dataMemorydataOut" type="array">
+      <obj_property name="ElementShortName">dataMemorydataOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataMemorydataOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/dut/fpu/data1" type="array">
+      <obj_property name="ElementShortName">data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/dut/fpu/data2" type="array">
+      <obj_property name="ElementShortName">data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/dut/fpu/floatRes" type="array">
+      <obj_property name="ElementShortName">floatRes[31:0]</obj_property>
+      <obj_property name="ObjectShortName">floatRes[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/dut/floatRegFile/WriteData" type="array">
+      <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/dut/floatRegFile/WriteRegister" type="array">
+      <obj_property name="ElementShortName">WriteRegister[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteRegister[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/dut/cpuMemory/dataMemorydataIn" type="array">
+      <obj_property name="ElementShortName">dataMemorydataIn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataMemorydataIn[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/dut/registerFile/RegWrite" type="logic">
+      <obj_property name="ElementShortName">RegWrite</obj_property>
+      <obj_property name="ObjectShortName">RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/dut/cpuMemory/dataMemorywriteEnable" type="logic">
+      <obj_property name="ElementShortName">dataMemorywriteEnable</obj_property>
+      <obj_property name="ObjectShortName">dataMemorywriteEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/PORTC" type="array">
+      <obj_property name="ElementShortName">PORTC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PORTC[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/PORTD" type="array">
+      <obj_property name="ElementShortName">PORTD[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PORTD[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/PORTA" type="array">
+      <obj_property name="ElementShortName">PORTA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PORTA[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpuTest/PORTB" type="array">
+      <obj_property name="ElementShortName">PORTB[7:0]</obj_property>
+      <obj_property name="ObjectShortName">PORTB[7:0]</obj_property>
+   </wvobject>
+</wave_config>

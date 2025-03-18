@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sun Jul 28 20:44:33 2024
+# Process ID: 25800
+# Current directory: C:/Users/Alvin/Vivado Projects/project_fpu
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18056 C:\Users\Alvin\Vivado Projects\project_fpu\project_fpu.xpr
+# Log file: C:/Users/Alvin/Vivado Projects/project_fpu/vivado.log
+# Journal file: C:/Users/Alvin/Vivado Projects/project_fpu\vivado.jou
+# Running On: LAPTOP-KADECJNF, OS: Windows, CPU Frequency: 2895 MHz, CPU Physical cores: 16, Host memory: 25146 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu.xpr}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse {{C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu.sim/sim_1/behav/xsim/test1data.mem} {C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu.sim/sim_1/behav/xsim/test1text.mem} {C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu.sim/sim_1/behav/xsim/factorial_texthex.mem}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu.srcs/sim_1/imports/xsim/test1text.mem}}] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files {{C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu.srcs/sim_1/imports/xsim/test1data.mem}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu.srcs/sim_1/imports/xsim/test1text.mem} {C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu.srcs/sim_1/imports/xsim/test1data.mem}}
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse {{C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu_with_tb/project_fpu.srcs/sim_1/imports/jana/Desktop/soot/COLLEGE/3RD YEAR TERM 3/LBYCPD3/MIPS_FPU-master/MIPS_FPU-master/verilog/float_cpu00.t.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse {{C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu_with_tb/project_fpu.srcs/sim_1/imports/jana/Downloads/MIPS_FPU-master/MIPS_FPU-master/asm_test/factorial_texthex.mem}}
+import_files -fileset sim_1 -norecurse {{C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu_with_tb/project_fpu.srcs/sim_1/imports/jana/Downloads/MIPS_FPU-master/MIPS_FPU-master/verilog/factorial_cpu00.t.v}}
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files {{C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu.srcs/sim_1/imports/xsim/factorial_texthex.mem}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu.srcs/sim_1/imports/xsim/factorial_texthex.mem}}
+export_ip_user_files -of_objects  [get_files {{C:/Users/Desktop/soot/COLLEGE/3RD YEAR TERM 3/LBYCPD3/MIPS_FPU-master/MIPS_FPU-master/verilog/float_cpu00.t.v}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/Desktop/soot/COLLEGE/3RD YEAR TERM 3/LBYCPD3/MIPS_FPU-master/MIPS_FPU-master/verilog/float_cpu00.t.v}}
+set_property is_enabled false [get_files  {{C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu.srcs/sim_1/imports/verilog/factorial_cpu00.t.v}}]
+export_ip_user_files -of_objects  [get_files C:/Users/Alvin/MIPS_FPU-master/MIPS_FPU-master/verilog/factorial_cpu00.t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files C:/Users/Alvin/MIPS_FPU-master/MIPS_FPU-master/asm_test/factorial_texthex.mem] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {C:/Users/Alvin/MIPS_FPU-master/MIPS_FPU-master/verilog/factorial_cpu00.t.v C:/Users/Alvin/MIPS_FPU-master/MIPS_FPU-master/asm_test/factorial_texthex.mem}
+set_property is_enabled true [get_files  {{C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu.srcs/sim_1/imports/verilog/factorial_cpu00.t.v}}]
+update_compile_order -fileset sim_1
+set_property is_enabled false [get_files  {{C:/Users/Alvin/Vivado Projects/project_fpu/project_fpu.srcs/sim_1/imports/verilog/factorial_cpu00.t.v}}]
